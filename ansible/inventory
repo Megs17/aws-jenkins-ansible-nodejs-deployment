@@ -1,0 +1,6 @@
+[private_servers]
+private-ec2 ansible_host=10.0.1.200
+
+[private_servers:vars]
+ansible_ssh_common_args='-o ProxyCommand="ssh -i ./megskey.pem -W %h:%p ubuntu@54.175.53.219"'
+
