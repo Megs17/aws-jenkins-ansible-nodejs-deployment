@@ -38,6 +38,3 @@ This project sets up a complete CI/CD workflow using Jenkins and Ansible on AWS.
 - Redis & RDS
 - SSH Tunneling
 
-## Author
-
-Ahmed FCE - DevOps & Cloud Automation Engineer
